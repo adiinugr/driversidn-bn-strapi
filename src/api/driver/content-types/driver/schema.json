@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drivers",
+  "info": {
+    "singularName": "driver",
+    "pluralName": "drivers",
+    "displayName": "Driver",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "language": {
+      "type": "string",
+      "default": "English"
+    },
+    "isFree": {
+      "type": "boolean",
+      "default": true
+    },
+    "requirement": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "ratings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::rating.rating",
+      "mappedBy": "driver"
+    },
+    "manufacture": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::manufacture.manufacture",
+      "inversedBy": "drivers"
+    },
+    "downloadCount": {
+      "type": "biginteger"
+    },
+    "driver_files": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::driver-file.driver-file",
+      "mappedBy": "driver"
+    }
+  }
+}
