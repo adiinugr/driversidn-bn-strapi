@@ -7,20 +7,8 @@ module.exports = [
         useDefaults: true,
         directives: {
           "connect-src": ["'self'", "https:"],
-          "img-src": [
-            "'self'",
-            "data:",
-            "blob:",
-            "dl.airtable.com",
-            "*.digitaloceanspaces.com",
-          ],
-          "media-src": [
-            "'self'",
-            "data:",
-            "blob:",
-            "dl.airtable.com",
-            "*.digitaloceanspaces.com",
-          ],
+          "img-src": ["'self'", "data:", "blob:", "*.digitaloceanspaces.com"],
+          "media-src": ["'self'", "data:", "blob:"],
           upgradeInsecureRequests: null,
         },
       },
@@ -31,7 +19,6 @@ module.exports = [
   "strapi::logger",
   "strapi::query",
   "strapi::body",
-  "strapi::session",
   "strapi::favicon",
   "strapi::public",
 ];
