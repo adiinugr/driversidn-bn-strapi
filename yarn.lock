@@ -1435,6 +1435,14 @@
     "@strapi/utils" "4.12.1"
     sendmail "^1.6.1"
 
+"@strapi/provider-upload-aws-s3@^4.12.1":
+  version "4.12.1"
+  resolved "https://registry.npmmirror.com/@strapi/provider-upload-aws-s3/-/provider-upload-aws-s3-4.12.1.tgz#88966783c77dfd0b4db99517cfc77bed7fda5e36"
+  integrity sha512-Q6nPUICJQX1k70iy31STDvcjH/o1Znk9yx3w+SEXY66LI501cT3pLezsrQowd3aUk5FtldaHImGEt5EE5fBSlQ==
+  dependencies:
+    aws-sdk "2.1425.0"
+    lodash "4.17.21"
+
 "@strapi/provider-upload-local@4.12.1":
   version "4.12.1"
   resolved "https://registry.npmmirror.com/@strapi/provider-upload-local/-/provider-upload-local-4.12.1.tgz#8ef000ef77f2b5d78689e22329262bf912682765"
@@ -2329,6 +2337,22 @@ aws-sdk@2.1350.0:
     util "^0.12.4"
     uuid "8.0.0"
     xml2js "0.4.19"
+
+aws-sdk@2.1425.0:
+  version "2.1425.0"
+  resolved "https://registry.npmmirror.com/aws-sdk/-/aws-sdk-2.1425.0.tgz#2c6d9f295720e16fae9de6131b4d495219944ba5"
+  integrity sha512-DbY5z7E8RsrX8/0pMBKMuh/rWFic3AghtU2AWkUdzxDi0cUSK7rOSPS/OIURU9Rh0jaNXoA0ujBDdx/CC5CvRA==
+  dependencies:
+    buffer "4.9.2"
+    events "1.1.1"
+    ieee754 "1.1.13"
+    jmespath "0.16.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    util "^0.12.4"
+    uuid "8.0.0"
+    xml2js "0.5.0"
 
 axios@1.4.0:
   version "1.4.0"
@@ -8887,6 +8911,19 @@ xml2js@0.4.19:
   dependencies:
     sax ">=0.6.0"
     xmlbuilder "~9.0.1"
+
+xml2js@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.npmmirror.com/xml2js/-/xml2js-0.5.0.tgz#d9440631fbb2ed800203fad106f2724f62c493b7"
+  integrity sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==
+  dependencies:
+    sax ">=0.6.0"
+    xmlbuilder "~11.0.0"
+
+xmlbuilder@~11.0.0:
+  version "11.0.1"
+  resolved "https://registry.npmmirror.com/xmlbuilder/-/xmlbuilder-11.0.1.tgz#be9bae1c8a046e76b31127726347d0ad7002beb3"
+  integrity sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==
 
 xmlbuilder@~9.0.1:
   version "9.0.7"
