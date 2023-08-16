@@ -13,6 +13,7 @@ module.exports = [
             "blob:",
             "files.driversidn.com",
             "sgp1.digitaloceanspaces.com",
+            "*.sgp1.digitaloceanspaces.com",
           ],
           "media-src": [
             "'self'",
@@ -20,6 +21,7 @@ module.exports = [
             "blob:",
             "files.driversidn.com",
             "sgp1.digitaloceanspaces.com",
+            "*.sgp1.digitaloceanspaces.com",
           ],
           upgradeInsecureRequests: null,
         },
