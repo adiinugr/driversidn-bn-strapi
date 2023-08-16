@@ -31,9 +31,6 @@
       "type": "boolean",
       "default": true
     },
-    "requirement": {
-      "type": "string"
-    },
     "author": {
       "type": "string"
     },

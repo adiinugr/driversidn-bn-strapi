@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "driver_types",
+  "info": {
+    "singularName": "driver-type",
+    "pluralName": "driver-types",
+    "displayName": "Driver Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "driver_files": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::driver-file.driver-file",
+      "mappedBy": "driver_type"
+    }
+  }
+}

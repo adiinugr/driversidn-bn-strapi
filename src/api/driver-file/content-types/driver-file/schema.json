@@ -31,6 +31,12 @@
       "relation": "oneToMany",
       "target": "api::operating-system.operating-system",
       "mappedBy": "driver_file"
+    },
+    "driver_type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::driver-type.driver-type",
+      "inversedBy": "driver_files"
     }
   }
 }
