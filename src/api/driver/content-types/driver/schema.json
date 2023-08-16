@@ -67,6 +67,10 @@
       "relation": "oneToMany",
       "target": "api::operating-system.operating-system",
       "mappedBy": "driver"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
