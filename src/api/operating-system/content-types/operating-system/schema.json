@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "operating_systems",
+  "info": {
+    "singularName": "operating-system",
+    "pluralName": "operating-systems",
+    "displayName": "Operating System"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "driver": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::driver.driver",
+      "inversedBy": "operating_systems"
+    }
+  }
+}

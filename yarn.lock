@@ -2322,22 +2322,6 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.npmmirror.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-aws-sdk@2.1350.0:
-  version "2.1350.0"
-  resolved "https://registry.npmmirror.com/aws-sdk/-/aws-sdk-2.1350.0.tgz#e538768b842a345db63f2cd0dfa8c7c60e0d8e78"
-  integrity sha512-b0BHug2iCtIsKgstj3FEyZYZCv8RZnie5vUQzkw0rr581Z6DOcJof7gGn19E6mPQp1l4j0d274SjvdFQS4JCMw==
-  dependencies:
-    buffer "4.9.2"
-    events "1.1.1"
-    ieee754 "1.1.13"
-    jmespath "0.16.0"
-    querystring "0.2.0"
-    sax "1.2.1"
-    url "0.10.3"
-    util "^0.12.4"
-    uuid "8.0.0"
-    xml2js "0.4.19"
-
 aws-sdk@2.1425.0:
   version "2.1425.0"
   resolved "https://registry.npmmirror.com/aws-sdk/-/aws-sdk-2.1425.0.tgz#2c6d9f295720e16fae9de6131b4d495219944ba5"
@@ -8029,14 +8013,6 @@ std-env@^3.0.1:
   resolved "https://registry.npmmirror.com/std-env/-/std-env-3.3.3.tgz#a54f06eb245fdcfef53d56f3c0251f1d5c3d01fe"
   integrity sha512-Rz6yejtVyWnVjC1RFvNmYL10kgjC49EOghxWn0RFqlCHGFpQx+Xe7yW3I4ceK1SGrWIGMjD5Kbue8W/udkbMJg==
 
-strapi-provider-upload-do@^3.6.9:
-  version "3.6.9"
-  resolved "https://registry.npmmirror.com/strapi-provider-upload-do/-/strapi-provider-upload-do-3.6.9.tgz#001867b70108ac04c7cc84206e20ba5f78ab6513"
-  integrity sha512-Sd+I+CAolcKySSkK3sUDTTyB908I9C0HL9vbUuUUxjaQ1iaeDv7CyPiwbpRKpFUnAz28nYdwWhQHCY5OhETlrA==
-  dependencies:
-    aws-sdk "2.1350.0"
-    urijs "1.19.6"
-
 strapi-provider-upload-dos@^4.0.5:
   version "4.0.5"
   resolved "https://registry.npmmirror.com/strapi-provider-upload-dos/-/strapi-provider-upload-dos-4.0.5.tgz#2075b222e73bbe6147d4db3dd7d169053018a7dc"
@@ -8543,11 +8519,6 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
-
-urijs@1.19.6:
-  version "1.19.6"
-  resolved "https://registry.npmmirror.com/urijs/-/urijs-1.19.6.tgz#51f8cb17ca16faefb20b9a31ac60f84aa2b7c870"
-  integrity sha512-eSXsXZ2jLvGWeLYlQA3Gh36BcjF+0amo92+wHPyN1mdR8Nxf75fuEuYTd9c0a+m/vhCjRK0ESlE9YNLW+E1VEw==
 
 urijs@^1.19.6:
   version "1.19.11"

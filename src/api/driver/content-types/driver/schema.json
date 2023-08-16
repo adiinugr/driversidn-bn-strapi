@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
     "image": {
@@ -53,12 +53,19 @@
       "inversedBy": "drivers"
     },
     "downloadCount": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "default": "0"
     },
     "driver_files": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::driver-file.driver-file",
+      "mappedBy": "driver"
+    },
+    "operating_systems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::operating-system.operating-system",
       "mappedBy": "driver"
     }
   }
