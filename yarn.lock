@@ -8013,6 +8013,11 @@ std-env@^3.0.1:
   resolved "https://registry.npmmirror.com/std-env/-/std-env-3.3.3.tgz#a54f06eb245fdcfef53d56f3c0251f1d5c3d01fe"
   integrity sha512-Rz6yejtVyWnVjC1RFvNmYL10kgjC49EOghxWn0RFqlCHGFpQx+Xe7yW3I4ceK1SGrWIGMjD5Kbue8W/udkbMJg==
 
+strapi-plugin-populate-deep@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-3.0.0.tgz#bd2b7145c4d1d79381698be7995d4dc454416ffd"
+  integrity sha512-4xpg0JxdaIIeO3wQLIO6Lh5ppbN8kXVl9uopQbs2AhwEf1KwLMSSZjaNoN7shCrxt1cET/u2GTDKG+Nlq54ZKg==
+
 strapi-provider-upload-dos@^4.0.5:
   version "4.0.5"
   resolved "https://registry.npmmirror.com/strapi-provider-upload-dos/-/strapi-provider-upload-dos-4.0.5.tgz#2075b222e73bbe6147d4db3dd7d169053018a7dc"

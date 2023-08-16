@@ -18,10 +18,6 @@
       "target": "api::driver.driver",
       "inversedBy": "driver_files"
     },
-    "version": {
-      "type": "string",
-      "required": true
-    },
     "file": {
       "type": "media",
       "multiple": false,

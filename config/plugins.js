@@ -1,13 +1,22 @@
 module.exports = ({ env }) => ({
   upload: {
     config: {
-      provider: "strapi-provider-upload-dos",
+      provider: "aws-s3",
       providerOptions: {
-        key: env("DO_SPACE_ACCESS_KEY"),
-        secret: env("DO_SPACE_SECRET_KEY"),
-        endpoint: env("DO_SPACE_ENDPOINT"),
-        space: env("DO_SPACE_BUCKET"),
-        cdn: env("DO_SPACE_CDN"),
+        baseUrl: env("DO_SPACE_CDN"),
+        s3Options: {
+          accessKeyId: env("DO_SPACE_ACCESS_KEY"),
+          secretAccessKey: env("DO_SPACE_SECRET_KEY"),
+          endpoint: env("DO_SPACE_ENDPOINT"),
+          params: {
+            Bucket: env("DO_SPACE_BUCKET"),
+          },
+        },
+      },
+      actionOptions: {
+        upload: {},
+        uploadStream: {},
+        delete: {},
       },
     },
   },
