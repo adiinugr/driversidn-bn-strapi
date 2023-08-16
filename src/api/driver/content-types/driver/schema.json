@@ -62,12 +62,6 @@
       "target": "api::driver-file.driver-file",
       "mappedBy": "driver"
     },
-    "operating_systems": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::operating-system.operating-system",
-      "mappedBy": "driver"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"

@@ -23,12 +23,18 @@
       "required": true
     },
     "file": {
-      "allowedTypes": [
-        "files"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "operating_systems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::operating-system.operating-system",
+      "mappedBy": "driver_file"
     }
   }
 }

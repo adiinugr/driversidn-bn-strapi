@@ -15,10 +15,10 @@
       "type": "string",
       "required": true
     },
-    "driver": {
+    "driver_file": {
       "type": "relation",
       "relation": "manyToOne",
-      "target": "api::driver.driver",
+      "target": "api::driver-file.driver-file",
       "inversedBy": "operating_systems"
     }
   }
