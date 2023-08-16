@@ -3,6 +3,8 @@ module.exports = ({ env }) => ({
     config: {
       provider: "aws-s3",
       providerOptions: {
+        baseUrl: env("DO_SPACE_CDN"),
+        rootPath: "/",
         s3Options: {
           accessKeyId: env("DO_SPACE_ACCESS_KEY"),
           secretAccessKey: env("DO_SPACE_SECRET_KEY"),
