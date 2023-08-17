@@ -31,9 +31,6 @@
       "type": "boolean",
       "default": true
     },
-    "author": {
-      "type": "string"
-    },
     "description": {
       "type": "richtext"
     },
@@ -62,6 +59,12 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "drivers"
     }
   }
 }
