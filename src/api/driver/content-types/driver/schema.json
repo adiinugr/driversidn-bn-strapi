@@ -70,6 +70,10 @@
       },
       "required": true,
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
     }
   }
 }

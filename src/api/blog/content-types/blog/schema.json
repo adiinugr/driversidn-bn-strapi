@@ -41,6 +41,10 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
     }
   }
 }
