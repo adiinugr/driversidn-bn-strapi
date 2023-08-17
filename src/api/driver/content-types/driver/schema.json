@@ -65,6 +65,14 @@
       "relation": "manyToOne",
       "target": "api::author.author",
       "inversedBy": "drivers"
+    },
+    "driverDescription": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
