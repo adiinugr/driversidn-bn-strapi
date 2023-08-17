@@ -31,9 +31,6 @@
       "type": "boolean",
       "default": true
     },
-    "description": {
-      "type": "richtext"
-    },
     "ratings": {
       "type": "relation",
       "relation": "oneToMany",
@@ -66,7 +63,7 @@
       "target": "api::author.author",
       "inversedBy": "drivers"
     },
-    "driverDescription": {
+    "description": {
       "type": "customField",
       "options": {
         "preset": "toolbar"
