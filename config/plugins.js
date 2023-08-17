@@ -2,6 +2,7 @@ module.exports = ({ env }) => ({
   upload: {
     config: {
       provider: "aws-s3",
+      sizeLimit: 1000 * 1024 * 1024,
       providerOptions: {
         baseUrl: `https://${env("DO_SPACE_CDN")}`,
         s3Options: {
