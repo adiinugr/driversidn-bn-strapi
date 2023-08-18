@@ -4,7 +4,8 @@
   "info": {
     "singularName": "operating-system",
     "pluralName": "operating-systems",
-    "displayName": "Operating System"
+    "displayName": "Operating System",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,9 +16,9 @@
       "type": "string",
       "required": true
     },
-    "driver_file": {
+    "driver_files": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::driver-file.driver-file",
       "inversedBy": "operating_systems"
     }
